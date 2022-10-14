@@ -1,8 +1,9 @@
 #include <unistd.h>
+
 /**
  * main-entry point.
  *
- * return:1(successful)
+ * Return:always(1)
  */
 
 int main(void)

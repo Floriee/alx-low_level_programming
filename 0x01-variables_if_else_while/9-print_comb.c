@@ -8,13 +8,13 @@
 
 int main(void)
 {
-	int x;
+	int num;
 
-	for (x == '0'; x <= '9'; x++)
+	for (num == '0'; num <= '9'; num++)
 	{
-	putchar(x);
+	putchar(num);
 
-	if (x == '9')
+	if (num == '9')
 	{
 		break;
 	}

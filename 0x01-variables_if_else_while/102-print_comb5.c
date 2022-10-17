@@ -11,9 +11,9 @@ int main(void)
 	int x;
 	int y;
 
-	for (x = 0; x < 99; x++)
+	for (x = 0; x <= 99; x++)
 	{
-		for (y = x + 1; y < 99; y++)
+		for (y = x + 1; y <= 99; y++)
 		{
 			putchar('0' + x / 10);
 			putchar('0' + x % 10);

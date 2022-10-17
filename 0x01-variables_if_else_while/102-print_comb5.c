@@ -23,11 +23,12 @@ int main(void)
 			putchar('0' + y / 10);
 			putchar('0' + y % 10);
 
-			if (x == 99 && y == 99)
-				break;
+			if ((x != 98) || (y != 99))
+			{
 				putchar(',');
 				putchar(' ');
 			}
+		}
 	}
 	putchar('\n');
 	return (0);

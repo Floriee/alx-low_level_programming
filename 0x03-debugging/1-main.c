@@ -16,6 +16,7 @@ int main(void)
 	/**
 	 * while (i < 10)
 	 * {
+#include "main.h"
 	 * putchar(i);
 	 * }
 	 */

@@ -16,7 +16,9 @@ void print_times_table(int n)
 	{
 		for (a = 0; a <= n; a++)
 		{
+			{
 			c = a * b;
+			}
 			_putchar(44);
 			_putchar(32);
 			if (c <= 9)

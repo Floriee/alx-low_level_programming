@@ -6,7 +6,7 @@
  * Return: integef
  */
 
-void puts_half(char *str)
+int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
 

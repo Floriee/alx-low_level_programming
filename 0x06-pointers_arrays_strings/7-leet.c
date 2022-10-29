@@ -6,7 +6,7 @@
  * Return: the pointer dest
  */
 
-char *leet(char *)
+char *leet(char *n)
 {
 	int count = 0, i;
 	int low_letters[] = {97, 101, 111, 116, 108};

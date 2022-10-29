@@ -6,12 +6,12 @@
  * Return: the pointer to dest
  */
 
-char *rot13(char *)
+char *rot13(char *n)
 {
 	int i, j;
 
-	char *x = 
-		"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	char *x =
+		"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		char *y =
 		"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
@@ -21,7 +21,7 @@ char *rot13(char *)
 		{
 			if (n[i] == x[j])
 			{
-				n[i] = y[j]
+				n[i] = y[j];
 					break;
 			}
 		}
